@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <!--& ###############  Font Awsome  ############# -->
+      <link rel="stylesheet" href="css/all.min.css" />
+
+      <!--& ###############  Font Google  ############# -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Aclonica&family=Poppins:wght@300;400;500;600;800&display=swap"
+         rel="stylesheet"
+      />
+      <!--& ###############  Bootstrap  ################ -->
+      <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+      <!--& ###############  File Css  ################# -->
+      <link rel="stylesheet" href="css/style.css" />
+
+      <title>Gaming</title>
+      <!--& ############## Titlle Icon   ################ -->
+      <link rel="icon" type="image/jpeg" href="images/cropped-favicon.png" />
+   </head>
+   <body>
+      <div class="loading d-none">
+         <span class="loader"></span>
+      </div>
+      <div class="top-0 start-0 bottom-0 end-0" id="reload"></div>
+      <!-- * ############################################## -->
+      <section id="intro" class="">
+         <div class="intro text-white text-center">
+            <h2 class="display-5 text">Best Highlight Of The Latest</h2>
+         </div>
+         <div class="arrow">
+            <i
+               class="fa-solid fa-circle-arrow-down fa-bounce fa-2xl"
+               style="color: #d81313"
+            ></i>
+         </div>
+      </section>
+      <!-- * ##################################################   -->
+      <section id="home">
+         <div class="cover">
+            <img src="images/wraper.png" alt="cover" />
+         </div>
+         <div class="text-white">
+            <nav class="navbar navbar-expand-lg position-sticky top-0 z-3">
+               <div class="container px-5 fw-bold">
+                  <img src="images/logo-sm.png" style="width: 45px" alt="" />
+                  <h3 class="logo-text">GAME REVIEWS</h3>
+                  <button
+                     class="navbar-toggler"
+                     type="button"
+                     data-bs-toggle="collapse"
+                     data-bs-target="#navbarSupportedContent"
+                     aria-controls="navbarSupportedContent"
+                     aria-expanded="false"
+                     aria-label="Toggle navigation"
+                  >
+                     <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div
+                     class="collapse navbar-collapse"
+                     id="navbarSupportedContent"
+                  >
+                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                           <p class="nav-link active" id="mmorpg">MMORPG</p>
+                        </li>
+                        <li class="nav-item">
+                           <p class="nav-link" id="shooter">SHOOTER</p>
+                        </li>
+                        <li class="nav-item">
+                           <p class="nav-link" id="sailing">SAILING</p>
+                        </li>
+                        <li class="nav-item">
+                           <p class="nav-link" id="permadeath">PERMADEATH</p>
+                        </li>
+                        <li class="nav-item">
+                           <p class="nav-link" id="superhero">SUPERHERO</p>
+                        </li>
+                        <li class="nav-item">
+                           <p class="nav-link" id="pixel">PIXEL</p>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </nav>
+            <div class="container py-4">
+               <div class="row g-3" id="homeData">
+                  <div class="col-md-3 position-relative game " id="50" >
+                     <div class="card " style="width: 18rem">
+                        <div class="p-2 img">
+                           <img
+                              src="images/thumbnail.jpg"
+                              class="card-img-top"
+                              alt="..."
+                           />
+                        </div>
+                        <div class="p-2">
+                           <div class="d-flex justify-content-between">
+                              <p class="text-white">Diablo Immortal</p>
+                              <button class="btn btn-danger">Free</button>
+                           </div>
+                           <p class="text-center text-white opacity-50">
+                              Built,for,mobile,and,also,released,on,PC,
+                           </p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                           <div
+                              class="d-flex justify-content-between p-2 text-white"
+                           >
+                              <p class="des">MMOARPG</p>
+                              <p class="des">PC (windows)</p>
+                           </div>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- *################################################# -->
+      <section id="details">
+         <div class="container">
+            <div class="d-flex justify-content-between py-5">
+               <h3 class="text-white">Details Game</h3>
+               <i class="fa-solid fa-xmark fa-2xl" style="color: #ffffff"></i>
+            </div>
+            <div class="row" id="detailsData">
+               <div class="col-md-4">
+                  <div><img src="images/thumbnail.jpg" alt="" /></div>
+               </div>
+               <div class="col-md-8">
+                  <div class="px-4 text-white">
+                     <h4>Title: Diablo Immortaaaaaal</h4>
+                     <h6 class="py-2">Category: <span>MMOARPG</span></h6>
+                     <h6 class="py-2">Platrofm: <span>Windows</span></h6>
+                     <h6 class="py-2">Status: <span>Live</span></h6>
+                     <p class="text-details">
+                        The demon fighting doesn’t have to stop when you walk
+                     </p>
+                     <button class="btn btn-outline-warning mt-4">
+                        <a href="" target="_blank" class="text-white">Show Game</a>
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--* ############## Java JQuery File ############### -->
+      <script src="js/jquery-3.7.1.min.js"></script>
+      <!--* ############## Java bundle File ############### -->
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <!--* ############## Java Script File ############### -->
+      <script type="module" src="js/main.js"></script>
+   </body>
+</html>
